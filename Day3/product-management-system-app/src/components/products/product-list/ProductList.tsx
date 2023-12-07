@@ -3,12 +3,14 @@ import { Product } from '../../../models/product'
 import { TableContainer, Paper, Table, TableHead, TableRow, TableCell, TableBody } from '@mui/material';
 import { productRecords } from '../../../repository/products';
 import ProductRow from './ProductRow';
+import { getProducts } from '../../../services/productService';
 
 type productInfoList = {
    product: Product[];
 
 }
 function ProductList() {
+    //productArrayApiResponse = getProducts()
     let [productArray, setProductDetails] = useState(productRecords)
   return (
     <div>ProductList

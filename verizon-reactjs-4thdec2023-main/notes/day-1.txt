@@ -1,0 +1,79 @@
+JS and TS:
+
+data types:
+string, boolean, number and object (and function)
+undefined, null, infinity, NaN etc.
+
+TS => JS
+transpilers:
+s/w: typescript compiler (tsc)
+
+1994
+
+ECMA
+ECMAScript
+
+ES5
+ES6+
+
+package.json: configuration about the application
+create:
+a. manually
+b. using NPM tool
+	command:
+	>npm init
+	or 
+	>npm init --yes
+
+installtion of package using NPM:
+global: 
+in the system
+path: C:\Users\<user-name>\AppData\Roaming\npm
+command: >npm i <package-name> --location=global
+
+local : local to the application
+path: app directory
+command: >npm i <package-name>
+
+complete dependency:
+>npm i <package-name> --save
+or
+>npm i <package-name>
+
+development dependency:
+>npm i <package-name> --save-dev
+or
+>npm i typescript -D
+
+
+
+installing typescript transpiler:
+>npm i typescript --save-dev
+or
+>npm i typescript -D
+
+creating tsconfig.json file (with configuration for typescript transpiler):
+>tsc --init
+
+
+js execution cycle:
+a. preparation stage: 
+	all variable declarations and function declarations (NOT expressions) are hoisted 
+b. execution stage
+
+in JS, whenever a function is invoked, an FEC (function execution context) object is created and placed in stack (FEC stack)
+
+closure:
+maintaing lexical scope state for any function un JS
+
+ES6+ new features:
+let and const keyword
+class, constructor, extends and super keywords
+
+
+
+
+
+
+
+
