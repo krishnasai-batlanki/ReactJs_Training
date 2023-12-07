@@ -1,0 +1,17 @@
+{
+  "name": "es6-plus-features",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spread-rest-operator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -w",
+    "app": "node ./dist/rest-operator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "requirejs": "^2.3.6",
+    "typescript": "^5.3.2"
+  }
+}
